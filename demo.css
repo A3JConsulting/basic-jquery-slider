@@ -41,6 +41,10 @@ pre + h2{
 	margin-bottom: 60px;
 }
 
+#banner-marker {
+	margin-bottom: 90px;
+}
+
 ul.bjqs-controls.v-centered li a{
 	display:block;
 	padding:10px;
@@ -62,11 +66,22 @@ ol.bjqs-markers li a{
 	text-decoration: none;
 }
 
+#banner-marker ol.bjqs-markers li a {
+	background: transparent;
+	color: #000;
+}
+
 ol.bjqs-markers li.active-marker a,
 ol.bjqs-markers li a:hover{
-	background: #999;
+	background: #999 !important;
+}
+
+ol.bjqs-markers li a img {
+	clear: both;
+	display: block;
 }
 
 p.bjqs-caption{
 	background: rgba(255,255,255,0.5);
 }
+
